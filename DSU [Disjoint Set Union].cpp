@@ -93,7 +93,7 @@ struct DSU
 	}
 };
 
-
+[Very easy]
 https://www.codechef.com/PRACTICE/problems/DISHOWN
 soln - https://www.codechef.com/viewsolution/25358145
 
