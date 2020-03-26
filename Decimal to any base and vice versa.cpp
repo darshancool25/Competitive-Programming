@@ -61,3 +61,8 @@ string decToBinary(int n)
 	}
 	return s;
 }
+
+
+[VERY EASY]
+https://codeforces.com/contest/1312/problem/C
+soln - https://codeforces.com/contest/1312/submission/74190710
