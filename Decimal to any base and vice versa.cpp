@@ -8,7 +8,7 @@ char reVal(int num)
 		return (char)(num - 10 + 'A');
 }
 
-string fromDeci(int inputNum, int base)
+string fromDeci(long long int inputNum, int base)
 {
 	string res = "";
 	while (inputNum > 0)
@@ -33,7 +33,7 @@ int val(char c)
 }
 int toDeci(string str, int base)
 {
-	int len = str.length(), power = 1, num = 0, i;
+	long long int len = str.length(), power = 1, num = 0, i;
 	for (i = len - 1; i >= 0; i--)
 	{
 		if (val(str[i]) >= base)
@@ -55,7 +55,7 @@ string decToBinary(int n)
 	// Size of an integer is assumed to be 32 bits
 	string s;
 	for (int i = 31; i >= 0; i--) {
-		int k = n >> i;
+		long long int k = n >> i;
 		if (k & 1)	s += '1';
 		else	s += '0';
 	}
