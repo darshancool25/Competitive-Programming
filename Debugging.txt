@@ -5,4 +5,4 @@
 	eg : cin >> a >> b;
 	a -= min(a,b);  //value of a is changed here
 	b -= min(a,b);
-5]
+5] Applying binary search  OR lower/upper bound on unsorted array.
