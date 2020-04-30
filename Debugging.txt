@@ -1,0 +1,8 @@
+1] int or ll overflow
+2] for loop boundry conditions
+3] ; after for loop
+4] changing value of variable and then using the changed value
+	eg : cin >> a >> b;
+	a -= min(a,b);  //value of a is changed here
+	b -= min(a,b);
+5]
