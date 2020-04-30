@@ -1,4 +1,4 @@
-1] int or ll overflow (always use ll for sum variable).
+1] int overflow (always use ll for sum variable).
 2] for loop boundry conditions
 3] ; after for loop
 4] changing value of variable and then using the changed value
@@ -6,3 +6,4 @@
 	a -= min(a,b);  //value of a is changed here
 	b -= min(a,b);
 5] Applying binary search  OR lower/upper bound on unsorted array.
+6] 
