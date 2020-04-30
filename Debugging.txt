@@ -1,4 +1,4 @@
-1] int or ll overflow
+1] int or ll overflow (always use ll for sum variable).
 2] for loop boundry conditions
 3] ; after for loop
 4] changing value of variable and then using the changed value
