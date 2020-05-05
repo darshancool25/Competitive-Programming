@@ -32,7 +32,7 @@ void union_set(ll x, ll y)
 {
 	int rt1 = find(x);
 	int rt2 = find(y);
-	if (x == y) return;
+	if (rt1 == rt2) return;
 
 	connected--;
 
