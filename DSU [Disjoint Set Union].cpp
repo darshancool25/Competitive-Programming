@@ -97,5 +97,9 @@ struct DSU
 https://www.codechef.com/PRACTICE/problems/DISHOWN
 soln - https://www.codechef.com/viewsolution/25358145
 
+[Kruskals]
+https://codeforces.com/contest/1245/problem/D
+soln[abhi2402] - https://codeforces.com/contest/1245/submission/64472728
+
 
 
