@@ -1,5 +1,5 @@
 1] int overflow (always use ll for sum variable).
-2] for loop boundry conditions
+2] for loop boundary conditions
 3] ; after for loop
 4] changing value of variable and then using the changed value
 	eg : cin >> a >> b;
