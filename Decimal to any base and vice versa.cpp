@@ -31,7 +31,7 @@ int val(char c)
 	else
 		return (int)c - 'A' + 10;
 }
-int toDeci(string str, int base)
+long long int toDeci(string str, int base)
 {
 	long long int len = str.length(), power = 1, num = 0, i;
 	for (i = len - 1; i >= 0; i--)
