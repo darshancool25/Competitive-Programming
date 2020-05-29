@@ -6,4 +6,4 @@
 	a -= min(a,b);  //value of a is changed here
 	b -= min(a,b);
 5] Applying binary search  OR lower/upper bound on unsorted array.
-6] 
+6] while using MOD functions, check if arguments itself are <= MOD
