@@ -7,3 +7,4 @@
 	b -= min(a,b);
 5] Applying binary search  OR lower/upper bound on unsorted array.
 6] while using MOD functions, check if arguments itself are <= MOD
+7] Be carefull while checking bits : use (1LL << i) instead of (1<<i)
