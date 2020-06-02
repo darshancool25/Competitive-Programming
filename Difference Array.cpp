@@ -8,7 +8,7 @@ void update(int l, int r, int x)
 	diff[r + 1] -= x;
 }
 
-void magic(int l, int r)
+void work(int l, int r)
 {
 	cover[l] = diff[l];
 	for (int i = l + 1; i <= r; i++)
