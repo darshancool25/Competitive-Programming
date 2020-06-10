@@ -56,3 +56,8 @@ vector<int> getFactorization(long long int x)
 	return ret;
 }
 
+
+[Div2 - D]
+https://codeforces.com/contest/959/problem/D
+soln - https://codeforces.com/contest/959/submission/83329289
+
