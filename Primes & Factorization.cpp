@@ -42,6 +42,7 @@ vector<int> primeFactors(long long int n)
 }
 
 --------------------------------------------------------------
+
 Prime Factorization [Multiple Query] :
 
 vector<int> getFactorization(long long int x)
