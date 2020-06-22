@@ -3,15 +3,19 @@
 
 vector< pair<int, int> > CompressArray(int arr[], int n)
 {
-	vector < pair<int, int> > res;
-	for (int i = 0; i < n; i++)
-	{
-		if (res.size() == 0) res.push_back(make_pair(arr[i], 1));
-		else
-		{
-			if (arr[i] == res[res.size() - 1].first) res[res.size() - 1].second++;
-			else res.push_back(make_pair(arr[i], 1));
-		}
-	}
-	return res;
+    vector < pair<int, int> > res;
+    for (int i = 0; i < n; i++)
+    {
+        if (res.size() == 0) res.push_back(make_pair(arr[i], 1));
+        else
+        {
+            if (arr[i] == res[res.size() - 1].first) res[res.size() - 1].second++;
+            else res.push_back(make_pair(arr[i], 1));
+        }
+    }
+    return res;
 }
+
+[Div2 - B]
+https://codeforces.com/contest/1363/problem/B
+soln - https://codeforces.com/contest/1363/submission/82113044
