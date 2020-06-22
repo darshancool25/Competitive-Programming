@@ -10,3 +10,4 @@
 7] Be carefull while checking bits : use (1LL << i) instead of (1<<i)
 8] In graph questions if you are using 0 indexing for nodes! Take Care.
 9] for ll integers use __builtin_popcountll()
+10] Remember : ceil() and floor() take 'double' argument.
