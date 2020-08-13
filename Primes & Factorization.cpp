@@ -6,7 +6,7 @@ int spf[MAX];
 
 void sieve()
 {
-    memset(prime, true, sizeof(prime));
+    fill(prime, prime + MAX, true);
     for (int i = 1; i < MAX; i++)spf[i] = i;
     prime[0] = prime[1] = false;
     for (int i = 2; i * i < MAX; i++) {

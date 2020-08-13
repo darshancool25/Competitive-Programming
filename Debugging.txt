@@ -11,3 +11,4 @@
 8] In graph questions if you are using 0 indexing for nodes! Take Care.
 9] for ll integers use __builtin_popcountll()
 10] Remember : ceil() and floor() take 'double' argument.
+11] Avoid memset() cause you dont know how it works! Better use 'fill' or for loops.
